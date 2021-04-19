@@ -1,0 +1,88 @@
+html,
+body,
+header,
+.view {
+  height: 100%;
+}
+
+#intro {
+  background: url("fearless1.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+  -moz-background-size: cover;    /* 针对Firefox浏览器 */
+  -o-background-size: cover;      /* 针对Operallq */
+  background-size: cover;         /* 通用 */
+}
+
+#intro1 {
+  background: url("http://n.sinaimg.cn/sinacn20121/212/w2048h1364/20190910/126e-iekuaqt6063531.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+  -moz-background-size: cover;    /* 针对Firefox浏览器 */
+  -o-background-size: cover;      /* 针对Operallq */
+  background-size: cover;         /* 通用 */
+}
+
+#about{
+  background: url("fearless2.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+  -moz-background-size: cover;    /* 针对Firefox浏览器 */
+  -o-background-size: cover;      /* 针对Operallq */
+  background-size: cover;         /* 通用 */
+}
+#album{
+  background: url("album.jpg")no-repeat center center fixed;
+  -webkit-background-size: cover; /* 针对Chrome, Safari, Edge等浏览器 */
+  -moz-background-size: cover;    /* 针对Firefox浏览器 */
+  -o-background-size: cover;      /* 针对Operallq */
+  background-size: cover;         /* 通用 */
+}
+.top-nav-collapse {
+  background-color: #afa513;
+}
+
+
+
+.view {
+  height: 100%;
+}
+
+
+
+
+@media (max-width: 740px) {
+  html,
+  body,
+  header,
+  .view {
+    height: 100vh;
+  }
+}
+
+.top-nav-collapse {
+  background-color: #f7e335 !important;
+}
+
+.navbar:not(.top-nav-collapse) {
+  background: transparent !important;
+}
+
+@media (max-width: 991px) {
+  .navbar:not(.top-nav-collapse) {
+    background: #f7db42 !important;
+  }
+}
+
+.rgba-gradient {
+  background: rgba(155, 131, 22, 0.6);  /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, rgba(240, 216, 113, 0.6), rgba(243, 136, 14, 0.6));  /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(to right, rgba(243, 206, 83, 0.6), rgba(240, 65, 12, 0.6)); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+}
+
+/*background: #fceabb;  /* fallback for old browsers */
+/*background: -webkit-linear-gradient(to right, #f8b500, #fceabb);  /* Chrome 10-25, Safari 5.1-6 */
+/*background: linear-gradient(to right, #f8b500, #fceabb); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+
+
+/*background: -moz-linear-gradient(45deg, rgba(231, 197, 104, 0.6), rgba(238, 119, 51, 0.69) 100%);
+  background: -webkit-linear-gradient(45deg, rgba(238, 236, 106, 0.6), rgba(243, 81, 52, 0.69) 100%);
+  background: linear-gradient(to 45deg, rgba(235, 221, 103, 0.6), rgba(238, 99, 64, 0.69) 100%);
+*/
